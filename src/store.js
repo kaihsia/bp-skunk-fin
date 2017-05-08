@@ -2,18 +2,18 @@ import { createStore, combineReducers, compose, applyMiddleware } from 'redux'
 import { routerReducer, routerMiddleware } from 'react-router-redux'
 import thunkMiddleware from 'redux-thunk'
 
-import todos from './reducers/todos'
-import visibilityFilter from './reducers/visibilityFilter'
-import weatherReducer from './reducers/weatherReducer'
+import risklevel from './reducers/main'
+import resp from './reducers/responsive'
+import userPort from './reducers/userPortfolio'
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export function configureStore(history, initialState) {
 
     const reducer = combineReducers({
-        todos,
-        visibilityFilter,
-        weatherReducer,
+        resp,
+        risklevel,
+        userPort,
         routing: routerReducer
     })
     

@@ -7,7 +7,7 @@ import { Router, hashHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 import { configureStore } from './store'
 import routes from './routes'
-import './styles/index.css'
+// import './styles/index.css'
 
 const state = window.__initialState__ || undefined;
 const store = configureStore(hashHistory, state);

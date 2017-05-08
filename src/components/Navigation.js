@@ -1,3 +1,5 @@
+// UNUSED FOR MVP
+
 import React from 'react'
 import { Link } from 'react-router'
 

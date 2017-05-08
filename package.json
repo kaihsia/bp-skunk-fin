@@ -1,7 +1,6 @@
 {
-  "name": "create-react-redux-app",
+  "name": "finance-creator",
   "version": "0.1.0",
-  "homepage": "http://yingray.github.io/create-react-redux-app",
   "devDependencies": {
     "babel-polyfill": "^6.16.0",
     "expect": "^1.20.2",
@@ -17,13 +16,13 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-d3-basic": "^1.6.11",
+    "react-dom": "^15.3.2",
+    "redux-form": "^6.6.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "test": "react-scripts test --env=jsdom"
   }
 }
