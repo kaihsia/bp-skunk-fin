@@ -17,8 +17,7 @@
   "dependencies": {
     "react": "^15.3.2",
     "react-d3-basic": "^1.6.11",
-    "react-dom": "^15.3.2",
-    "redux-form": "^6.6.3"
+    "react-dom": "^15.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
