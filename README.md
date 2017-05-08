@@ -30,7 +30,6 @@ This project was bootstrapped with Create React App and Redux Structure.
 
 ```
 npm install
-npm start
 ```
 
 
